@@ -14,4 +14,4 @@ def test_calculate_total_price(smartphone_info):
 
 
 def test_apply_discount(smartphone_info):
-    assert smartphone_info.apply_discount() == None
+    assert smartphone_info.apply_discount() is None
